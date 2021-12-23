@@ -17,8 +17,16 @@ body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4
   padding:0;
 }
 
-.headerlogo{
-  transition:opacity 0.2s;
+@media screen and (min-width:767px){
+  .headerlogo{
+    transition: opacity 0.2s;
+  }
+}
+
+@media screen and (min-width:767px){
+  .headerlogo:hover{
+    opacity:0.8;
+  }
 }
 
 img{
@@ -136,8 +144,19 @@ li{
 }
 
 .headernavlistitem{
-  transition:opacity 0.5s;
   margin-right: 45px;
+}
+
+@media screen and (min-width:767px){
+  .headernavlistitem{
+    transition: opacity 0.2s;
+  }
+}
+
+@media screen and (min-width:767px){
+  .headernavlistitem:hover{
+    opacity:0.8;
+  }
 }
 
 .headernavlistitem_link{
@@ -176,6 +195,18 @@ a{
   font-size:12px;
   height: 40px;
   padding:0 20px;
+}
+
+@media screen and (min-width:767px){
+  .headernavlistitem_button{
+    transition:opacity 0.2s;
+  }
+}
+
+@media screen and (min-width:767px){
+  .headernavlistitem_button:hover{
+   opacity: 0.8;
+  }
 }
 
 .firstview_main-image-sp{
@@ -322,6 +353,7 @@ body{
   width: 40%;
 }
 
+
 firstviewcontent_images img:last-of-type{
   margin-right: 0;
 }
@@ -371,6 +403,18 @@ firstviewcontent_images img:last-of-type{
   border:1px solid #E0E0E0;
   color:#333333;
   width:176px;
+}
+
+@media screen and (min-width:767px){
+  .firstviewcontent_buttons a{
+    transition: opacity 0.2s;
+  }
+}
+
+@media screen and (min-width:767px){
+  .firstviewcontent_buttons a:hover{
+    opacity:0.8;
+  }
 }
 
 @media screen and (max-width:767px){
@@ -538,6 +582,19 @@ h2{
     color: #F79214 !important;
     background-color: #fff;
 }
+
+@media screen and (min-width:767px){
+  .about_button{
+    transition: opacity 0.2s;
+  }
+}
+
+@media screen and (min-width:767px){
+  .about_button:hover{
+    opacity:0.8;
+  }
+}
+
 
 @media screen and (max-width: 767px){
 .headerlogo_image-pc{
